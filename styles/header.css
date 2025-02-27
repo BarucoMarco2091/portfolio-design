@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
+  padding: 10dvh 10dvh;
+}
+nav .nav-btn {
+  display: flex;
+}
+nav .nav-btn .consultation-btn {
+  background-color: #030303;
+  border: none;
+  height: 6dvh;
+  width: 25dvh;
+  border-radius: 3dvh;
+  font-weight: 600;
+  transition: background-color 0.9s;
+}
+nav .nav-btn .consultation-btn:hover {
+  background-color: #755CDE;
+}/*# sourceMappingURL=header.css.map */

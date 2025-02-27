@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1240px;
+  margin: auto;
+}
+main h1 {
+  text-align: center;
+  margin-bottom: 7dvh;
+}
+main p {
+  text-align: center;
+  font-weight: 500;
+}
+main .grid-container {
+  display: grid;
+  grid-template-areas: "card01 card01 card02 card03 card04" "card01 card01 card05 card05 card06";
+  grid-template-rows: 1.5fr 1fr;
+  padding-top: 10dvh;
+  gap: 4dvh;
+}
+main .grid-container .card {
+  border-radius: 2dvh;
+}
+main .grid-container .card-img {
+  display: flex;
+  justify-content: flex-end;
+}
+main .grid-container .card-img img {
+  width: 15dvh;
+  height: 15dvh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .grid-container .card01 {
+  grid-area: card01;
+  background-color: #755CDE;
+  padding: 3dvh 3dvh;
+}
+main .grid-container .card02 {
+  grid-area: card02;
+  background-color: #F6A560;
+  padding: 3dvh 3dvh;
+}
+main .grid-container .card03 {
+  grid-area: card03;
+  background-color: #F39E9E;
+  padding: 3dvh 3dvh;
+}
+main .grid-container .card04 {
+  grid-area: card04;
+  background-color: #61C4B7;
+  padding: 3dvh 3dvh;
+}
+main .grid-container .card05 {
+  grid-area: card05;
+  background-color: #EB7565;
+  padding: 3dvh 3dvh;
+}
+main .grid-container .card06 {
+  grid-area: card06;
+  background-color: #552049;
+  padding: 3dvh 3dvh;
+}
+main .grid-container .card-text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+main .grid-container .card-text p {
+  color: #FFFFFF;
+  font-size: 1.3rem;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */

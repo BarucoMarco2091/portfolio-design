@@ -1,0 +1,93 @@
+@import '../styles/variables.scss';
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    margin: auto;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 7dvh;
+    }
+
+    p {
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            "card01 card01 card02 card03 card04"
+            "card01 card01 card05 card05 card06"
+        ;
+        grid-template-rows: 1.5fr 1fr;
+        padding-top: 10dvh;
+        gap: 4dvh;
+
+        .card {
+            border-radius: 2dvh;
+        }
+
+        .card-img {
+            display: flex;
+            justify-content: flex-end;
+
+            img {
+                width: 15dvh;
+                height: 15dvh;
+                object-fit: cover;
+            }
+        }
+
+        .card01 {
+            grid-area: card01;
+            background-color: $violet;
+            padding: 3dvh 3dvh;
+        }
+
+        .card02 {
+            grid-area: card02;
+            background-color: $peach;
+            padding: 3dvh 3dvh;
+        }
+
+        .card03 {
+            grid-area: card03;
+            background-color: $pink;
+            padding: 3dvh 3dvh;
+        }
+
+        .card04 {
+            grid-area: card04;
+            background-color: $green;
+            padding: 3dvh 3dvh;
+        }
+
+        .card05 {
+            grid-area: card05;
+            background-color: $primaryPink;
+            padding: 3dvh 3dvh;
+        }
+
+        .card06 {
+            grid-area: card06;
+            background-color: $purple;
+            padding: 3dvh 3dvh;
+        }
+
+        .card-text {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                color: $primaryWhite;
+                font-size: 1.3rem;
+                font-weight: 600;
+            }
+        }
+    }
+}

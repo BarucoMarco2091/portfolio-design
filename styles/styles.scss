@@ -1,0 +1,49 @@
+@import '../styles/footer.scss';
+@import '../styles/header.scss';
+@import '../styles//main.scss';
+@import '../styles/responsivity.scss';
+@import '../styles/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100dvh;
+    position: relative;
+    outline: none;
+    background-color: $white;
+    font-family: 'Plus Jakarta Sans', serif;
+}
+
+h1, h2 {
+    font-size: 3rem;
+    color: $black;
+}
+
+p {
+    font-size: 1.2rem;
+    color: $grey;
+}
+
+button {
+    cursor: pointer;
+    color: $primaryWhite;
+    font-size: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+svg {
+    width: 100%;
+}
