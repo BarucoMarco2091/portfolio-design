@@ -90,4 +90,103 @@ main {
             }
         }
     }
+
+    .container {
+        display: flex;
+        max-width: 1240px;
+        margin: auto;
+        padding: 15dvh 15dvh;
+
+        div {
+            flex: 1;
+            gap: 5dvh;
+        }
+
+        .amy-image img {
+            width: 50%;
+            object-fit: cover;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+
+            .btn {
+                background-color: $primaryPink;
+                border: none;
+                border-radius: 3dvh;
+                height: 6dvh;
+                width: 30dvh;
+                font-weight: 600;
+                transition: background-color .9s;
+                color: $white;
+            }
+
+            .btn:hover {
+                background-color: $peach;
+            }
+        }
+    }
+
+    .caroussel {
+        display: flex;
+        flex-direction: column;
+        max-width: 1240px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h2 {
+            margin-bottom: 5dvh;
+        }
+    }
+
+    .second-container {
+        display: flex;
+        max-width: 1240px;
+        margin: auto;
+        background-color: $black;
+        margin-top: 15dvh;
+        padding: 5dvh 5dvh;
+        border-radius: 2dvh;
+
+        div {
+            flex: 1;
+        }
+
+        .book {
+            color: $white;
+            text-align: center;
+            margin-bottom: 4dvh;
+        }
+
+        .explanation {
+            margin-bottom: 4dvh;
+            color: $white;
+        }
+
+        .btn-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .btn {
+                background-color: $primaryPink;
+                border: none;
+                border-radius: 3dvh;
+                height: 6dvh;
+                width: 30dvh;
+                font-weight: 600;
+                transition: background-color .9s;
+                color: $white;
+            }
+
+            .btn:hover {
+                background-color: $peach;
+            }
+        }
+    }
 }

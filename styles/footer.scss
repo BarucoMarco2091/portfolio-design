@@ -1,1 +1,27 @@
 @import '../styles/variables.scss';
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 10dvh;
+
+    .footer-btn {
+        display: flex;
+
+        .consultation-btn {
+            background-color: $black;
+            border: none;
+            height: 6dvh;
+            width: 30dvh;
+            border-radius: 3dvh;
+            font-weight: 600;
+            transition: background-color .9s;
+        }
+
+        .consultation-btn:hover {
+            background-color: $violet;
+        }
+    }
+}

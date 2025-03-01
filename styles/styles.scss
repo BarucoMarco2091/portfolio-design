@@ -24,8 +24,13 @@ body {
     font-family: 'Plus Jakarta Sans', serif;
 }
 
-h1, h2 {
+h1 {
     font-size: 3rem;
+    color: $black;
+}
+
+h2 {
+    font-size: 2rem;
     color: $black;
 }
 

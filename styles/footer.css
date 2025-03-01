@@ -1,1 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");/*# sourceMappingURL=footer.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 10dvh;
+}
+footer .footer-btn {
+  display: flex;
+}
+footer .footer-btn .consultation-btn {
+  background-color: #030303;
+  border: none;
+  height: 6dvh;
+  width: 30dvh;
+  border-radius: 3dvh;
+  font-weight: 600;
+  transition: background-color 0.9s;
+}
+footer .footer-btn .consultation-btn:hover {
+  background-color: #755CDE;
+}/*# sourceMappingURL=footer.css.map */

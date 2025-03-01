@@ -73,4 +73,89 @@ main .grid-container .card-text p {
   color: #FFFFFF;
   font-size: 1.3rem;
   font-weight: 600;
+}
+main .container {
+  display: flex;
+  max-width: 1240px;
+  margin: auto;
+  padding: 15dvh 15dvh;
+}
+main .container div {
+  flex: 1;
+  gap: 5dvh;
+}
+main .container .amy-image img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .container .text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+main .container .text .btn {
+  background-color: #EB7565;
+  border: none;
+  border-radius: 3dvh;
+  height: 6dvh;
+  width: 30dvh;
+  font-weight: 600;
+  transition: background-color 0.9s;
+  color: #FFF7F0;
+}
+main .container .text .btn:hover {
+  background-color: #F6A560;
+}
+main .caroussel {
+  display: flex;
+  flex-direction: column;
+  max-width: 1240px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .caroussel h2 {
+  margin-bottom: 5dvh;
+}
+main .second-container {
+  display: flex;
+  max-width: 1240px;
+  margin: auto;
+  background-color: #030303;
+  margin-top: 15dvh;
+  padding: 5dvh 5dvh;
+  border-radius: 2dvh;
+}
+main .second-container div {
+  flex: 1;
+}
+main .second-container .book {
+  color: #FFF7F0;
+  text-align: center;
+  margin-bottom: 4dvh;
+}
+main .second-container .explanation {
+  margin-bottom: 4dvh;
+  color: #FFF7F0;
+}
+main .second-container .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .second-container .btn-container .btn {
+  background-color: #EB7565;
+  border: none;
+  border-radius: 3dvh;
+  height: 6dvh;
+  width: 30dvh;
+  font-weight: 600;
+  transition: background-color 0.9s;
+  color: #FFF7F0;
+}
+main .second-container .btn-container .btn:hover {
+  background-color: #F6A560;
 }/*# sourceMappingURL=main.css.map */
