@@ -210,6 +210,17 @@ main .second-container .btn-container .btn:hover {
   background-color: #F6A560;
 }
 
+@media (width <= 768px) {
+  .grid-container {
+    grid-template-areas: "card01" "card02" "card03" "card04" "card05" "card06" !important;
+  }
+}
+@media (width <= 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -257,4 +268,10 @@ img {
 
 svg {
   width: 100%;
+}
+
+@media (width <= 768px) {
+  h1, h2 {
+    font-size: 1.7rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

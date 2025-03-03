@@ -1,1 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");/*# sourceMappingURL=responsivity.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@media (width <= 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between !important;
+    margin: 1dvh 2dvh !important;
+  }
+}
+@media (width <= 1024px) {
+  .grid-container {
+    grid-template-areas: "card01" "card02" "card03" "card04" "card05" "card06" !important;
+    margin: 1dvh 1dvh;
+  }
+}
+@media (width <= 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (width <= 768px) {
+  .caroussel {
+    margin: 1dvh 1dvh !important;
+  }
+}
+@media (width <= 768px) {
+  .second-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1dvh 1dvh !important;
+  }
+}
+@media (width <= 768px) {
+  footer {
+    display: flex;
+    justify-content: space-between !important;
+    margin: 1dvh 2dvh !important;
+  }
+}/*# sourceMappingURL=responsivity.css.map */
