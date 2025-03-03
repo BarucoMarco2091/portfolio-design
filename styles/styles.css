@@ -3,6 +3,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 10dvh;
+}
+footer .footer-btn {
+  display: flex;
+}
+footer .footer-btn .consultation-btn {
+  background-color: #030303;
+  border: none;
+  height: 6dvh;
+  width: 30dvh;
+  border-radius: 3dvh;
+  font-weight: 600;
+  transition: background-color 0.9s;
+}
+footer .footer-btn .consultation-btn:hover {
+  background-color: #755CDE;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -130,6 +153,7 @@ main .container .text .btn {
   width: 30dvh;
   font-weight: 600;
   transition: background-color 0.9s;
+  color: #FFF7F0;
 }
 main .container .text .btn:hover {
   background-color: #F6A560;
@@ -142,6 +166,48 @@ main .caroussel {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+main .caroussel h2 {
+  margin-bottom: 5dvh;
+}
+main .second-container {
+  display: flex;
+  max-width: 1240px;
+  margin: auto;
+  background-color: #030303;
+  margin-top: 15dvh;
+  padding: 5dvh 5dvh;
+  border-radius: 2dvh;
+}
+main .second-container div {
+  flex: 1;
+}
+main .second-container .book {
+  color: #FFF7F0;
+  text-align: center;
+  margin-bottom: 4dvh;
+}
+main .second-container .explanation {
+  margin-bottom: 4dvh;
+  color: #FFF7F0;
+}
+main .second-container .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .second-container .btn-container .btn {
+  background-color: #EB7565;
+  border: none;
+  border-radius: 3dvh;
+  height: 6dvh;
+  width: 30dvh;
+  font-weight: 600;
+  transition: background-color 0.9s;
+  color: #FFF7F0;
+}
+main .second-container .btn-container .btn:hover {
+  background-color: #F6A560;
 }
 
 * {
